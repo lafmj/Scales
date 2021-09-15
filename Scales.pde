@@ -14,12 +14,14 @@ void scale(int x, int y) {
 void draw() {
   fill(#4B5A4C);
   rect(0,0,500,500);
-  fill (#6A816B);
+  
+  fill (#7B887D);
   for (int y = 0; y < 500; y+=40) {
     for (int x = 0; x < 500; x+=40) {
       scale(x, y);
     }
   }
+  
   fill (#97BD99);
   for (int y = 0; y < 500; y+=40) {
     for (int x = 0; x < 500; x+=43) {
